@@ -1,265 +1,258 @@
-<!DOCTYPE HTML>
-<!--
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>My Protfolio </title>
-		<meta charset="utf-8"  />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Taief Hasan | Software QA Engineer & IoT Systems Researcher</title>
+    <script src="https://tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <style>
+        @import url('https://googleapis.com');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-100 selection:text-blue-900">
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Top</a></li> <!--top-->
-					<li><a href="#skills">Skills</a></li><!--skill-->
-					<li><a href="#portfolio">Portfolio</a></li> <!--Protfolio section-->
-					<li><a href="#contact">Contact</a></li> <!--contact-->
-				</ul>
-			</nav>
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-lg font-bold text-slate-900 tracking-tight">Md. Taief <span class="text-blue-600">Hasan</span></a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#projects" class="hover:text-blue-600 transition">Projects & Research</a>
+                <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+                <a href="#experience" class="hover:text-blue-600 transition">Experience & Education</a>
+            </div>
+            <a href="mailto:taif25hasan@gmail.com" class="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition shadow-sm">
+                Contact Me
+            </a>
+        </div>
+    </nav>
 
-		<!-- Home -->
-			<article id="top" class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/image1.png" alt="" /></span><!--image1.png-->
-						</div>
-						<div class="col-8 col-7-large col-12-medium">
-							<header>
-								<h1>Hi. I'm <strong>Taief Hasan</strong>.</h1>
-							</header>
-							<p>It was my dream or it may be my
-								stubbornness from Childhood, as I
-								want to be a Software Engineer. After
-								all, I started my role-play of becoming
-								a software engineer at a university. In
-								the middle stage of university, I
-								decided to develop myself as a
-								software engineering specialist and
-								started giving more importance to
-								developing myself than my
-								professional field of work. Then I
-								realized that a career also plays a
-								unique role in becoming a software
-								engineer specialist. So now I want to
-								use my professional work experience
-								to take my goal one step further.</p>
-							<a href="#skills" class="button large scrolly">Learn about what I do</a>
-						</div>
-					</div>
-				</div>
-			</article>
+    <!-- Hero Section -->
+    <header id="about" class="bg-white border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6 py-16 md:py-24 flex flex-col-reverse md:flex-row items-center justify-between gap-10">
+            <div class="flex-1">
+                <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200 mb-6">
+                    <span class="w-2 h-2 rounded-full bg-blue-600 mr-2 animate-pulse"></span>
+                    Open to Remote QA Roles & MSc Research Opportunities
+                </div>
+                <h1 class="text-3xl md:text-5xl font-bold text-slate-900 tracking-tight leading-tight mb-5">
+                    Software QA Engineer <br class="hidden md:block"> & <span class="text-blue-600">IoT Systems Researcher</span>
+                </h1>
+                <p class="text-base md:text-lg text-slate-600 leading-relaxed mb-8">
+                    Quality-driven engineer with <strong>3+ years of enterprise experience</strong> in end-to-end test automation, REST API validation, and relational database verification. Passionate about building resilient, real-time IoT telemetry architectures and AI-assisted quality engineering pipelines.
+                </p>
+                <div class="flex flex-wrap gap-3 items-center">
+                    <a href="#projects" class="px-6 py-3 bg-slate-900 text-white text-sm font-medium rounded-lg hover:bg-slate-800 transition shadow-sm">
+                        View Featured Work
+                    </a>
+                    <a href="https://github.com" target="_blank" class="px-4 py-3 bg-white text-slate-700 border border-slate-300 text-sm font-medium rounded-lg hover:bg-slate-50 transition flex items-center gap-2">
+                        <i class="fab fa-github text-base"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="px-4 py-3 bg-white text-slate-700 border border-slate-300 text-sm font-medium rounded-lg hover:bg-slate-50 transition flex items-center gap-2">
+                        <i class="fab fa-linkedin text-blue-600 text-base"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+            <!-- Profile Image (Uses your existing images folder if available, with clean fallback) -->
+            <div class="w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-slate-100 shadow-lg shrink-0 bg-slate-200">
+                <img src="images/pic00.jpg" onerror="this.src='https://githubusercontent.com'" alt="Md. Taief Hasan" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </header>
 
-		<!-- Work -->
-			<article id="skills" class="wrapper style2">
-				<div class="container">
-					<header>
-						<h2>Here's all the stuff I do.</h2>
-						<p>Programming Languages, soft Skills, hard Skills, Technical skills</p>
-					</header>
-					<div class="row aln-center">
-						<div class="col-6 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-comments"></span>
-								<h3>Programming Languages</h3>
-								<span>C, C++</span> <br>
-									<span>C#</span><br>
-									<span>Java</span><br>
-									<span>Python</span><br>
-									<span>javaScripts</span><br>
-									<span>SQL</span>
-									<br>
-									<br>
-									<br>
-									<br>
-								
-									 
+    <!-- Featured Projects & Research -->
+    <section id="projects" class="max-w-5xl mx-auto px-6 py-20">
+        <div class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Featured Projects & Systems Research</h2>
+            <p class="text-slate-600 mt-2">Bridging academic IoT telemetry engineering with production-grade software quality assurance.</p>
+        </div>
 
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Flagship Project: KPM -->
+            <div class="bg-white rounded-xl border border-slate-200 p-7 shadow-sm hover:shadow-md transition flex flex-col justify-between md:col-span-2">
+                <div>
+                    <div class="flex flex-wrap justify-between items-start gap-4 mb-4">
+                        <div>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-blue-600 bg-blue-50 px-2.5 py-1 rounded">Flagship IoT & Telemetry System</span>
+                            <h3 class="text-xl font-bold text-slate-900 mt-3">Kalkini Power Monitor (KPM) — v3.5 Enterprise</h3>
+                        </div>
+                        <a href="https://web.app" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white text-xs font-semibold rounded-lg hover:bg-blue-700 transition shadow-sm">
+                            <i class="fas fa-external-link-alt"></i> Live Dashboard
+                        </a>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-5">
+                        A decentralized, real-time regional power grid & load-shedding telemetry platform engineered from scratch. Designed the embedded microcontroller data-reporting pipeline, fault-tolerant state tracking, uptime analytics engine, and role-based administrative dashboard with rigorous end-to-end validation.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 pt-4 border-t border-slate-100">
+                    <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded">ESP32 / IoT Telemetry</span>
+                    <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded">Firebase Realtime DB</span>
+                    <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded">Real-Time Analytics</span>
+                    <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded">System Reliability & QA</span>
+                </div>
+            </div>
 
-							</section>
-						</div>
-						
+            <!-- Project 2: E2E Web & API Automation -->
+            <div class="bg-white rounded-xl border border-slate-200 p-7 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded">Test Automation Architecture</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-3">Playwright & TypeScript E2E Framework</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mt-2 mb-5">
+                        Scalable Page Object Model (POM) automation architecture featuring cross-browser execution, automated API state seeding, custom reporting, and GitHub Actions CI/CD integration to eliminate pre-release regressions.
+                    </p>
+                </div>
+                <div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded">Playwright</span>
+                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded">TypeScript</span>
+                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded">GitHub Actions</span>
+                    </div>
+                    <a href="https://github.com" target="_blank" class="text-sm font-medium text-blue-600 hover:text-blue-800 inline-flex items-center gap-1">
+                        Explore Repositories <i class="fas fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+            </div>
 
-						<div class="col-6 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon solid featured fa-camera-retro"></span>
-								<h3>Soft Skills</h3>
-								<p>
-									<span>Time management skills</span><br>
-									<span>Organizational skills</span><br>
-									<span>Communication skills</span><br>
-									<span>Teamwork skills</span><br>
-									<span>Conceptual skills</span><br>	
-									<span>Creative thinking skills</span><br>	
-									<span>Decision-making skills</span><br>	
-									<span>Problem-solving skills</span><br>	
-									<span>Leadership skills</li></span><br>
-									
-							</section>
-						</div>
-						<div class="col-6 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-thumbs-up"></span>
-								<h3>Hard Skills</h3>
-								<span>Computer skills</span><br>
-								<span>Software development</span><br>
-								<span>Coading</span><br>
-								<span>Debugging</span><br>
-								<span>Object-oriented-programming</span><br>
-								<br>
-								<br>
-								<br> <br><br> <br><br> <br><br> <br><br> <br><br> <br> <br>
-							</section>
-						</div>
+            <!-- Project 3: API & Database Validation Suite -->
+            <div class="bg-white rounded-xl border border-slate-200 p-7 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                <div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded">Backend & API Quality</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-3">REST API & SQL Data Integrity Suite</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mt-2 mb-5">
+                        Automated contract, schema, and authentication testing suite for high-volume REST APIs paired with complex relational database assertions (MSSQL & PostgreSQL) to guarantee transaction accuracy.
+                    </p>
+                </div>
+                <div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded">Postman / Newman</span>
+						                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded">MSSQL / PostgreSQL</span>
+                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded">JSON Schema</span>
+                    </div>
+                    <a href="https://github.com" target="_blank" class="text-sm font-medium text-blue-600 hover:text-blue-800 inline-flex items-center gap-1">
+                        View API Suites <i class="fas fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-						<div class="col-6 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-thumbs-up"></span>
-								<h3>Technical Skills</h3>
-								<span><b>MS Office </b></span><br>
-								<span>Word, Excel, Powerpoint, Outlook, Access, OneNote.</span> <br>
-								<span> <b>Email</b></span> <br> <span> Filters, folders, mail merge, rules.</span><br>
-								<span> <b>Google Drive</b> </span><br> <span> Docs, Sheets, Forms, Slides.</span><br>
-								<span> <b>Spreadsheets</b> </span><br> <span> Excel, Google Sheets, OpenOffice.</span><br>
-								<span> <b>Social Media</b> </span><br> <span> Facebook, LinkedIn, Instagram.</span><br>
-								<span> <b>Web</b> </span><br><span> HTML, CSS, Javascript, WordPress, Content Management Systems (CMS).</span><br>
-								<span> <b>Enterprise Systems</b> </span><br><span>Business Continuity Planning, Enterprise Resource Planning (ERPs like SAP, Oracle).</span><br>
-								<span> <b>Math</b> </span><br> <span>Basic math, arithmetic, statistics, algebra, trigonometry, geometry, calculus.</span>
-						
-								<br>
-								<br>
-							</section>
-						</div>
-					</div>
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
-					</footer>
-				</div>
-			</article>
+    <!-- Skills Matrix -->
+    <section id="skills" class="bg-white border-y border-slate-200 py-20">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Technical & Research Competencies</h2>
+                <p class="text-slate-600 mt-2">Core tools and methodologies across test automation, backend quality, and IoT engineering.</p>
+            </div>
 
-		<!-- Portfolio -->
-			<article id="portfolio" class="wrapper style3">
-				<div class="container">
-					<header>
-						<h2>My Protfolio</h2>
-						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
-					</header>
-					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="http://taif25hasan.pythonanywhere.com/" class="image featured"><img src="images/django-python.png" alt="" /></a>
-								<h3><a href="http://taif25hasan.pythonanywhere.com/">Medi Assist</a></h3>
-								<span>Doctor Appoinment Systems</span><br>
-								<span>-Database Local: Sqlite</span><br>
-								<span>-Feture Search Doctor, Doctor Registration, Patient Registration</span>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-200">
+                    <div class="w-10 h-10 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center mb-4">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 mb-2">QA & Test Automation</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Playwright, Cypress, Selenium WebDriver, Appium (Mobile), Exploratory & Regression Testing.</p>
+                </div>
 
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="http://taif25hasan.pythonanywhere.com/" class="image featured"><img src="images/django-python.png" alt="" /></a>
-								<h3><a href="http://taif25hasan.pythonanywhere.com/">Medi Assist</a></h3>
-								<span>Doctor Appoinment Systems</span><br>
-								<span>-Database Local: Sqlite</span><br>
-								<span>-Feture Search Doctor, Doctor Registration, Patient Registration</span>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="http://taif25hasan.pythonanywhere.com/" class="image featured"><img src="images/django-python.png" alt="" /></a>
-								<h3><a href="http://taif25hasan.pythonanywhere.com/">Medi Assist</a></h3>
-								<span>Doctor Appoinment Systems</span><br>
-								<span>-Database Local: Sqlite</span><br>
-								<span>-Feture Search Doctor, Doctor Registration, Patient Registration</span>
-							</article>
-						</div>
-						
-					</div>
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#contact" class="button large scrolly">Get in touch with me</a>
-					</footer>
-				</div>
-			</article>
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-200">
+                    <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center mb-4">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 mb-2">API & Databases</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Postman, REST API Validation, MSSQL Server, PostgreSQL, MySQL, Firebase Realtime DB.</p>
+                </div>
 
-		<!-- Contact -->
-			<article id="contact" class="wrapper style4">
-				<div class="container medium">
-					<header>
-						<h2>You can Messege from here .</h2>
-						<p>It's static Design no messege will be send from here( I'am work on it)</p>
-					</header>
-					<div class="row">
-						<div class="col-12">
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Subject" />
-									</div>
-									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
-											<li><input type="reset" value="Clear Form" class="alt" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</div>
-						<div class="col-12">
-							<hr />
-							<h3>Find me on ...</h3>
-							<ul class="social">
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="https://www.linkedin.com/in/taif-hasan/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://taief-hasan.github.io/" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<!--
-								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
-								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
-								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
-								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
-								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
-								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
-								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
-								-->
-							</ul>
-							<hr />
-						</div>
-					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; Myself. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-				</div>
-			</article>
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-200">
+                    <div class="w-10 h-10 rounded-lg bg-indigo-100 text-indigo-600 flex items-center justify-center mb-4">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 mb-2">IoT & Systems Research</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Embedded Systems (ESP32), Sensor Telemetry, Distributed Grid Monitoring, Edge Reliability.</p>
+                </div>
 
-		<!-- Scripts -->
-		
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-	</body>
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-200">
+                    <div class="w-10 h-10 rounded-lg bg-amber-100 text-amber-600 flex items-center justify-center mb-4">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="font-bold text-slate-900 mb-2">AI Workflows & DevOps</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">Cursor, Claude Code, LLM Output Evaluation, GitHub Actions, Git, Jira, Agile/Scrum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education -->
+    <section id="experience" class="max-w-5xl mx-auto px-6 py-20">
+        <div class="grid md:grid-cols-2 gap-12">
+            <!-- Experience -->
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-8 flex items-center gap-2">
+                    <i class="fas fa-briefcase text-blue-600 text-lg"></i> Professional Experience
+                </h2>
+                <div class="space-y-8 border-l-2 border-slate-200 pl-6 ml-2">
+                    <div class="relative">
+                        <span class="w-3 h-3 rounded-full bg-blue-600 absolute -left-[31px] top-1.5 ring-4 ring-slate-50"></span>
+                        <span class="text-xs font-semibold text-blue-600 uppercase tracking-wider">Mar 2023 – Dec 2024</span>
+                        <h3 class="text-lg font-bold text-slate-900 mt-1">Software Quality Assurance Engineer</h3>
+                        <p class="text-sm font-medium text-slate-700 mb-2">Systech Digital Ltd.</p>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Led functional, API, and automated regression testing across enterprise web applications using Cypress, Playwright, and Postman, significantly reducing pre-release defect leakage.
+                        </p>
+                    </div>
+
+                    <div class="relative">
+                        <span class="w-3 h-3 rounded-full bg-slate-400 absolute -left-[31px] top-1.5 ring-4 ring-slate-50"></span>
+                        <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Jan 2022 – Feb 2023</span>
+                        <h3 class="text-lg font-bold text-slate-900 mt-1">SQA & Database Support Engineer</h3>
+                        <p class="text-sm font-medium text-slate-700 mb-2">DI System Ltd.</p>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Validated large-scale ERP transactions, executed complex MSSQL queries for data integrity verification, and performed mobile/web QA across client deployments.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education & Research Interests -->
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-8 flex items-center gap-2">
+                    <i class="fas fa-graduation-cap text-blue-600 text-lg"></i> Education & Research Interest
+                </h2>
+                <div class="bg-white rounded-xl border border-slate-200 p-6 shadow-sm mb-6">
+                    <span class="text-xs font-semibold text-blue-600 uppercase tracking-wider">Graduated 2021</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-1">B.Sc. in Computer Science & Engineering</h3>
+                    <p class="text-sm font-medium text-slate-700 mt-1">Daffodil International University (DIU)</p>
+                    <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                        <strong>Core Coursework:</strong> Software Engineering, Database Management Systems, Computer Networks & Embedded Systems.
+                    </p>
+                </div>
+
+                <div class="bg-blue-50/70 rounded-xl border border-blue-100 p-6">
+                    <h4 class="font-bold text-slate-900 text-sm mb-3 flex items-center gap-2">
+                        <i class="fas fa-microscope text-blue-600"></i> Prospective MSc Research Areas
+                    </h4>
+                    <ul class="text-sm text-slate-700 space-y-2 list-disc list-inside">
+                        <li>Intelligent IoT Telemetry & Smart Grid Monitoring</li>
+                        <li>Automated Software Testing & AI Agent Reliability</li>
+                        <li>Distributed Systems & Fault-Tolerant Edge Computing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200 py-10">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-500">
+            <p>© 2026 Md. Taief Hasan. Engineered for clarity & reliability.</p>
+            <div class="flex space-x-6">
+                <a href="https://github.com" target="_blank" class="hover:text-slate-900 transition">GitHub</a>
+                <a href="https://linkedin.com" target="_blank" class="hover:text-slate-900 transition">LinkedIn</a>
+                <a href="https://web.app" target="_blank" class="hover:text-slate-900 transition">Kalkini Power Monitor</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
 </html>
 
-<!--The End-->
